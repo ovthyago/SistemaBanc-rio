@@ -1,0 +1,85 @@
+|## Cenários e Casos de Testes - Operações Financeias
+
+Cenário Relacionado:
+Realizar depósito (TS-001)
+
+Título:
+Realizar um depósito válido (TC-001)
+
+Passos:	
+1-Informar valor de depósito, data (hoje ou agendada).   
+2-E clicar em "depositar".
+
+Resultado Esperado:
+
+Depósito realizado com sucesso. E valor acrescido no saldo.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Cenário Relacionado:
+Realizar depósito (TS-001)
+
+Título:
+Realizar um depósito agendado com data anterior  (TC-002)
+
+Passos:	
+1-Informar valor de depósito. 
+2-data anterior a data atual.   
+3-Clicar em "Depositar".
+
+Resultado Esperado:
+
+O sistema bloqueia a ação e emite a mensagem na tela: "Data inferior a atual, informe uma data válida".
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário Relacionado:
+Realizar depósito (TS-002)
+
+Título:
+Realizar saque válido  (TC-001)
+
+Passos:	
+1-Informar valor de saque.
+2-clicar em confirmar
+2-senha.   
+3-Clicar em "sacar".
+
+Resultado Esperado:
+
+Saque realizado com sucesso.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Cenário Relacionado:
+Realizar Saque (TS-002)
+
+Título:
+Realizar saque com valor inferior do saldo  (TC-002)
+
+Passos:	
+1-Informar valor de saque inválido.
+2-Tentar clicar em confirmar
+
+Resultado Esperado:
+
+Saque superior ao saldo, informe um valor  válido.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário Relacionado:
+Realizar depósito (TS-002)
+
+Título:
+Realizar saque com senha inválida  (TC-002)
+
+Passos:	
+1-Informar valor de saque.
+2-Clicar em confirmar
+3-Informe senha inválida
+Resultado Esperado:
+
+Saque superior ao saldo, informe um valor  válido.
+
