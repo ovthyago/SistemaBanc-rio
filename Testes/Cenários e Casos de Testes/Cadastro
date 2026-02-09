@@ -1,0 +1,67 @@
+|## Cenários e Casos de Testes
+
+Cenário Relacionado:
+Cadastro de clientes (TS-001)
+
+Título:
+cadastrar um usuário válido (TC-001)
+
+Passos:	
+1-Informar dados válidos: nome, e-mail e idade. 
+2-E clicar em cadastrar.
+
+Resultado Esperado:
+
+Cadastro realizado com sucesso.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário Relacionado:
+Cadastro de clientes (TS-001)
+
+Título:
+cadastrar um e-mail com a estrutura incorreta (TC-002)
+
+Passos:	
+1-Informar dados: nome e idade. 
+2-e-mail não possui um dos elementos da estrutura (exemplo, sem o "@" oou sem o ".com"). 
+3-Tenta avançar para o campo idade.
+
+Resultado Esperado:
+
+"E-mail inválido, cadastro não realizado". Antes de seguir para o campo idade essa mensagem anterior deve ser impressa na tela.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário Relacionado:
+Cadastro de clientes (TS-001)
+
+Título:
+cadastrar um usuário com e-mail já cadastrado (TC-003)
+
+Passos:	
+1-Informar dados: nome, idade.
+2-E-Mail já existente na base de dados 
+3-Clicar em Cadastrar.
+
+Resultado Esperado:
+
+Cliente já possui cadastro. Retorne a tela inicial e realize o login com a conta existente.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário Relacionado:
+Cadastro de clientes (TS-001)
+
+Título:
+cadastrar um usuário, informando letras no campo idade (TC-004)
+
+Passos:	
+1-Informar dados: nome, e-mail 
+2-idade com letras. 
+3-Clicar em Cadastrar.
+
+Resultado Esperado:
+
+O sistema bloqueia a ação e apresenta a seguinte mensagem: "Caracteres não permitidos no campo "idade". Realize as alterações necessárias e conclua o cadastro".
+
