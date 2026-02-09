@@ -35,7 +35,7 @@ O sistema bloqueia a ação e emite a mensagem na tela: "Data inferior a atual, 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Cenário Relacionado:
-Realizar depósito (TS-002)
+Realizar saque (TS-002)
 
 Título:
 Realizar saque válido  (TC-001)
@@ -57,7 +57,7 @@ Cenário Relacionado:
 Realizar Saque (TS-002)
 
 Título:
-Realizar saque com valor inferior do saldo  (TC-002)
+Realizar saque com valor superior do saldo  (TC-002)
 
 Passos:	
 1-Informar valor de saque inválido.
@@ -70,7 +70,7 @@ Saque superior ao saldo, informe um valor  válido.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 Cenário Relacionado:
-Realizar depósito (TS-002)
+Realizar Saque (TS-002)
 
 Título:
 Realizar saque com senha inválida  (TC-002)
@@ -81,5 +81,5 @@ Passos:
 3-Informe senha inválida
 Resultado Esperado:
 
-Saque superior ao saldo, informe um valor  válido.
+O sistema bloqueia a ação e emite a mensagem: "Senha incorreta, informe a correta."
 
